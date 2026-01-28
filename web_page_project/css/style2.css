@@ -1,0 +1,251 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: grid;
+    max-width: 1500px;
+    margin: 0 auto;
+    grid-template-columns: 0.25fr 2fr 1.25fr;
+    grid-template-rows: 100px auto 100px;
+    grid-column-gap: 30px;
+    grid-row-gap: 40px;
+}
+
+.header{
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+section{
+    width: 90%;
+    color: #34495E;
+    margin-right: 20px;
+}
+
+#main-body-right{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#main-body-left{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+img{
+    float: left;
+    width: 6%;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    margin-left: 4px;
+    margin-top: 6px;
+}
+
+.image{
+    float: left;
+    width: 30%;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    margin-left: 4px;
+    margin-top: 6px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.user-name {
+    float: right;
+    width: 12%;
+}
+
+aside{
+    width: 80%;
+    align-items: center;
+}
+
+header {
+    background-color: #004F2E;
+}
+
+
+h1 {
+    color: white;
+    font-size: 35px;
+    background-color: #004F2E;
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.course {
+    text-align: center;
+    margin: 10px;
+    color: black;
+    font-size: 25px;
+}
+
+.sign-up-mess {
+    text-align: center;
+    margin: 5px;
+    color: black;
+    font-size: 21px;
+}
+
+article{
+    float: left;
+    border: 2px solid black;
+    padding: 0px 20px 0px 20px;
+    border-radius: 7px;
+    margin: 5px;
+    width: 100%;
+}
+
+.form-fill {
+    float: left;
+    border: 2px solid black;
+    padding: 0px 20px 0px 20px;
+    border-radius: 7px;
+    margin: 5px;
+    width: 100%;
+}
+
+input{
+    float: right;
+    width: 50%;
+}
+
+.submission{
+    float: left;
+    border: 1px solid black;
+    padding: 0px 20px 0px 20px;
+    border-radius: 7px;
+    margin: 5px;
+    width: 20%;
+    text-align: center;
+}
+
+.input-field {
+    margin: 37px 0px;
+    width: 100%;
+    padding: 3px;
+}
+
+.form-submit {
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.edit {
+    float: left;
+    margin: 4px;
+    padding: 6px;
+    margin-left: -48px;
+    width: 24%;
+}
+
+label{
+    float:left;
+    font-size: 20px;
+    width: 40%;
+}
+
+.auth-form {
+    float: left;
+    border: 2px solid black;
+    padding: 0px 20px 0px 20px;
+    border-radius: 7px;
+    margin: 9px;
+    width: 100%;
+}
+
+.page {
+    text-align: center;
+    float: left;
+    border: 2px solid black;
+    padding: 0px 20px 0px 20px;
+    border-radius: 7px;
+    margin: 9px;
+    width: 100%;
+}
+
+.status {
+    float: right;
+    border: black 1px solid;
+    border-radius: 7px;
+    width: 8%;
+    text-align: center;
+    padding: 5px;
+}
+
+button{
+    text-align: center;
+    width: 7%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.signup {
+    float: left;
+    text-align: center;
+}
+
+.validation {
+    float: left;
+    padding-left: 704px;
+}
+
+.footer-auth{
+    background-color: black;;
+    color: white;
+    clear: both;
+    padding: 20px 0;
+    text-align: center;
+
+    grid-column: span 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.invalid {
+    border: 4px solid red;
+}
+
+.error-mess {
+    color: red;
+    font-weight: bold;
+    width: 100%;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.feedback-exceed{
+    width: 100%;
+    text-align: right;
+}
+
+.feedback-box{
+    width: 100%;
+    padding: 5px;
+}
+
+.highlight {
+    background-color: red;
+    color: white;
+}
+
